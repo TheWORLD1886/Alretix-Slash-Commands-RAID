@@ -25,11 +25,12 @@ o<br>
 
 **Editar el archivo `config.json` y añadir lo que se requiere.**<br>
 ![imagen](https://cdn.discordapp.com/attachments/939943160166121572/953883550623629312/unknown.png)<br>
-**Una vez hecho el paso de arriba seguiremos con abriremos la consola y ejecutaremos lo siguiente:**
-<br>
 Para obtener el `Bot ID` y `Bot TOKEN` que se requiere debes crear un Bot, te puedes manejar en este link:
 
-https://discord.com/developers/applications/
+**https://discord.com/developers/applications/**<br><br>
+**Una vez hecho el paso de arriba seguiremos con abriremos la consola y ejecutaremos lo siguiente:**
+<br>
+
 
 Abrirás una consola y buscarás la ruta donde guardaste el Source Code y ejecutarás los siguientes comandos:
 
@@ -46,8 +47,8 @@ node scmds.js
 node alretix.js
 ```
 <br><br>
-**Despues de esto el Bot encenderá correctamente y podrás raidear los servidores que quieras.**
-#Comandos
+**Despues de esto el Bot encenderá correctamente y podrás raidear los servidores que quieras.**<br>
+# Comandos
 
 `/raid : Raidea el servidor`<br>
 `/customraid <Opciones> : Haz un Custom Raid`<br>

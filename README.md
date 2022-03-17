@@ -30,6 +30,9 @@ o<br>
 Abrirás una consola y buscarás la ruta donde guardaste el Source Code y ejecutarás los siguientes comandos:
 
 ```
+npm install
+```
+```
 node scmds.js
 ```
 ```

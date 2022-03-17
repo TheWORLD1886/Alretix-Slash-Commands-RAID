@@ -29,12 +29,15 @@ o<br>
 
 Abrirás una consola y buscarás la ruta donde guardaste el Source Code y ejecutarás los siguientes comandos:
 
+**Comando 1:**
 ```
 npm install
 ```
+**Comando 2:**
 ```
 node scmds.js
 ```
+**Comando 3:**
 ```
 node alretix.js
 ```

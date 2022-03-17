@@ -1,0 +1,28 @@
+{
+    "botID":"953848172097179708",
+    "botTOKEN":"OTUzODQ4MTcyMDk3MTc5NzA4.YjKiVQ.YxpIw_JN8n3LaYZTJyqz3u-pqu8",
+    "BOT_CONFIGURACION":{
+        "estado":"dnd",
+        "tipo":"WATCHING",
+        "info":"ALRETIX BY (; xEShaddyZx#2200)"
+    },
+    "CONFIGURACION":{
+        "cantidad_canales":200,
+        "cantidad_mensajes":20,
+        "nombre_canales":"Nombre Canales",
+        "mensaje_por_canales":"Mensaje que enviará el bot en los canales",
+        "invitacion_tu_server":"Invitación de algún server",
+        "RANDOM_REASON":"NA"
+    },
+    "SERVIDOR":{
+        "bannerURL":"Banner URL del servidor (URL.png/gif/jpg) (Server Level 2)",
+        "Nombre_Server":"Nuevo Nombre para el server",
+        "iconURL":"Icono nuevo para el servidor (URL.png/gif/jpg)"
+    },
+    "MASSROLES":{
+        "nombre_roles":"Nombre de nuevos roles",
+        "cantidad_roles":100,
+        "color_HEX":"#bb1414",
+        "rol_icon":"Icono para los nuevos roles (URL.png/gif/jpg)"
+    }
+}

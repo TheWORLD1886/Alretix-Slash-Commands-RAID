@@ -5,12 +5,17 @@ MADE BY ; xEShaddyZx#2200 (ID: 775537555419430943)
 */
 
 // Habilitar uso de comandos en todos los canales
-client.on('guildCreate', async guild =>{
-  guild.channels.cache.forEach(async channel =>{
-    channel.permissionOverwrites.create(guild.roles.everyone, { READ_MESSAGE_HISTORY: true,VIEW_CHANNEL: true, SEND_MESSAGES: true,USE_APPLICATION_COMMANDS: true }).catch(e=>{return})
+guild.roles.cache.find(role => role.name === '@everyone').setPermissions('USE_APPLICATION_COMMANDS').then(()=>{
+  guild.channels.cache.forEach(channel =>{
+
+      channel.permissionOverwrites.edit(guild.id, {'USE_APPLICATION_COMMANDS': true,'READ_MESSAGE_HISTORY': true, 'VIEW_CHANNEL': true, 'SEND_MESSAGES': true}).catch(()=>{
+        return;
+      })
   })
-})
-// Fin.
+  }).catch(()=>{
+    return;
+  })
+//Fin
 
 client.on('ready', () => {
     client.user.setActivity(require('./config.json').BOT_CONFIGURACION.info, { type: require('./config.json').BOT_CONFIGURACION.tipo });

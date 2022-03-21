@@ -28,11 +28,11 @@ o<br>
 Para obtener el `Bot ID` y `Bot TOKEN` que se requiere debes crear un Bot, te puedes manejar en este link:
 
 **https://discord.com/developers/applications/**<br><br>
-**Una vez hecho el paso de arriba seguiremos con abriremos la consola y ejecutaremos lo siguiente:**
+**Una vez hecho el paso de arriba abriremos la consola y ejecutaremos lo siguiente:**
 <br>
 
 
-Abrirás una consola y buscarás la ruta donde guardaste el Source Code y ejecutarás los siguientes comandos:
+**Buscarás la ruta donde guardaste el Source Code y ejecutarás los siguientes comandos:**
 
 **Comando 1:**
 ```

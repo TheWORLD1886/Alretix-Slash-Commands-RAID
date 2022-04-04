@@ -60,3 +60,6 @@ node alretix.js
 `/admin [Miembro]: Date Administrador en el servidor o a alguien mas`<br>
 `/adminall : Dale Administrador a todos los miembros del servidor`<br>
 `/salir : Saca al Bot del servidor`<br>
+
+# Info:<br>
+Este código libre es hecho por mi, si vas a compartirlo por favor deja creditos.
